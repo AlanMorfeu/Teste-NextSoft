@@ -10,7 +10,6 @@ namespace TesteNextSoftMVC.Models
     {
         public Context(DbContextOptions<Context> options) : base(options)
         {
-            Database.EnsureCreated();
         }
         
         public  DbSet<Condominio> Condominio { get; set; }
