@@ -12,6 +12,8 @@ namespace TesteNextSoftMVC.Models
         [Key]
         public int Id { get; set; }
 
+        [Required(ErrorMessage = "Nome da Família deve ser informado!")]
+        [StringLength(50, MinimumLength = 1, ErrorMessage = "Nome deve ter entre 10 e 50 caracteres!")]
         public string Nome { get; set; }
 
         [ForeignKey("Condominio")]
