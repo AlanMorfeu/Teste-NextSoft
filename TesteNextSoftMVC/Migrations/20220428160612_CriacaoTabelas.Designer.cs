@@ -9,7 +9,7 @@ using TesteNextSoftMVC.Models;
 namespace TesteNextSoftMVC.Migrations
 {
     [DbContext(typeof(Context))]
-    [Migration("20220428033213_CriacaoTabelas")]
+    [Migration("20220428160612_CriacaoTabelas")]
     partial class CriacaoTabelas
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

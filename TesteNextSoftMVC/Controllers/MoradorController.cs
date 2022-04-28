@@ -47,7 +47,7 @@ namespace TesteNextSoftMVC.Controllers
         // GET: Morador/Create
         public IActionResult Create()
         {
-            ViewData["Id_Familia"] = new SelectList(_context.Familia, "Id", "Nome");
+            ViewData["Id_Familia"] = new SelectList(_context.Familia, "Id", "Id");
             return View();
         }
 
@@ -64,7 +64,7 @@ namespace TesteNextSoftMVC.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["Id_Familia"] = new SelectList(_context.Familia, "Id", "Nome", morador.Id_Familia);
+            ViewData["Id_Familia"] = new SelectList(_context.Familia, "Id", "Id", morador.Id_Familia);
             return View(morador);
         }
 
@@ -81,7 +81,7 @@ namespace TesteNextSoftMVC.Controllers
             {
                 return NotFound();
             }
-            ViewData["Id_Familia"] = new SelectList(_context.Familia, "Id", "Nome", morador.Id_Familia);
+            ViewData["Id_Familia"] = new SelectList(_context.Familia, "Id", "Id", morador.Id_Familia);
             return View(morador);
         }
 
@@ -117,7 +117,7 @@ namespace TesteNextSoftMVC.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["Id_Familia"] = new SelectList(_context.Familia, "Id", "Nome", morador.Id_Familia);
+            ViewData["Id_Familia"] = new SelectList(_context.Familia, "Id", "Id", morador.Id_Familia);
             return View(morador);
         }
 
