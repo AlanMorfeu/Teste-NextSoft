@@ -30,6 +30,5 @@ namespace TesteNextSoftMVC.Models
         [Display(Name = "Valor IPTU Proporcional")]
         public decimal ValorIPTU_Proporcional { get; set; }
 
-
     }
 }

@@ -13,9 +13,7 @@ namespace TesteNextSoftMVC.Migrations
                     Id = table.Column<int>(nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Nome = table.Column<string>(nullable: true),
-                    Bairro = table.Column<string>(nullable: true),
-                    AreaTotalCondominio = table.Column<decimal>(nullable: false),
-                    ValorIPTU = table.Column<decimal>(nullable: false)
+                    Bairro = table.Column<string>(nullable: true)
                 },
                 constraints: table =>
                 {
@@ -30,10 +28,7 @@ namespace TesteNextSoftMVC.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Nome = table.Column<string>(nullable: true),
                     Id_Condominio = table.Column<int>(nullable: false),
-                    Apto = table.Column<int>(nullable: false),
-                    AreaApto = table.Column<decimal>(nullable: false),
-                    FracaoIdeal = table.Column<decimal>(nullable: false),
-                    ValorIPTU_Proporcional = table.Column<decimal>(nullable: false)
+                    Apto = table.Column<int>(nullable: false)
                 },
                 constraints: table =>
                 {
