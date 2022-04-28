@@ -1,5 +1,5 @@
-use TexteNextSoftMVC
-go
+USE TexteNextSoftMVC
+GO
 
 SELECT C.Bairro, AVG(M.Idade) AS 'Média de Idade'
 FROM Condominio AS C

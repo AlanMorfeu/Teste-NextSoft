@@ -1,14 +1,14 @@
-use TexteNextSoftMVC
-go
-insert into Condominio(Nome,Bairro) 
-values ('Serra Negra','Vila Nova'),
+USE TexteNextSoftMVC
+GO
+INSERT INTO Condominio(Nome,Bairro) 
+VALUES ('Serra Negra','Vila Nova'),
 	   ('Casa Branca','Moema'),
 	   ('Bom Recanto','Vila Guarani'),
 	   ('Imaré','Capuava'),
 	   ('Andorinha','Jardim América')
-go
-insert into Familia(Nome,Id_Condominio,Apto) 
-values ('Silva',2,10),
+GO
+INSERT INTO Familia(Nome,Id_Condominio,Apto) 
+VALUES ('Silva',2,10),
        ('Novaes',2,45),
        ('Nobrega',4,110),
        ('Campineli',1,712),
@@ -19,9 +19,9 @@ values ('Silva',2,10),
        ('Oliveira',3,530),
        ('Jovanelli',4,507),
        ('Vieira',5,310)
-go
-insert into Morador(Id_Familia,Nome,Idade) 
-values (1,'Valmir',65),
+GO
+INSERT INTO Morador(Id_Familia,Nome,Idade) 
+VALUES (1,'Valmir',65),
        (3,'Lúcia',27),
        (2,'Marcelo',35),
        (2,'Irene',78),

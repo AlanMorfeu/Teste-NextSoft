@@ -47,7 +47,7 @@ namespace TesteNextSoftMVC.Controllers
         // GET: Familia/Create
         public IActionResult Create()
         {
-            ViewData["Id_Condominio"] = new SelectList(_context.Condominio, "Id", "Id");
+            ViewData["Id_Condominio"] = new SelectList(_context.Condominio, "Id", "Nome");
             return View();
         }
 
@@ -81,7 +81,7 @@ namespace TesteNextSoftMVC.Controllers
             {
                 return NotFound();
             }
-            ViewData["Id_Condominio"] = new SelectList(_context.Condominio, "Id", "Id", familia.Id_Condominio);
+            ViewData["Id_Condominio"] = new SelectList(_context.Condominio, "Id", "Nome", familia.Id_Condominio);
             return View(familia);
         }
 

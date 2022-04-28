@@ -1,4 +1,4 @@
-use TexteNextSoftMVC
+USE TexteNextSoftMVC
 GO
 
 SELECT M.Nome AS 'Pessoa', F.Nome AS 'Família', C.Nome AS 'Condomínio' 

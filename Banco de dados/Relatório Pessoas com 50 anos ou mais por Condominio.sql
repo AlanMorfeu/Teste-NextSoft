@@ -1,5 +1,5 @@
-use TexteNextSoftMVC
-go
+USE TexteNextSoftMVC
+GO
 
 
 SELECT C.Nome AS 'Condomínio', COUNT(M.Idade) as 'Pessoas com 50 anos ou mais' 

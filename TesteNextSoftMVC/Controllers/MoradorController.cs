@@ -47,7 +47,7 @@ namespace TesteNextSoftMVC.Controllers
         // GET: Morador/Create
         public IActionResult Create()
         {
-            ViewData["Id_Familia"] = new SelectList(_context.Familia, "Id", "Id");
+            ViewData["Id_Familia"] = new SelectList(_context.Familia, "Id", "Nome");
             return View();
         }
 
@@ -81,7 +81,7 @@ namespace TesteNextSoftMVC.Controllers
             {
                 return NotFound();
             }
-            ViewData["Id_Familia"] = new SelectList(_context.Familia, "Id", "Id", morador.Id_Familia);
+            ViewData["Id_Familia"] = new SelectList(_context.Familia, "Id", "Nome", morador.Id_Familia);
             return View(morador);
         }
 

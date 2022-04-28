@@ -23,7 +23,7 @@ namespace TesteNextSoftMVC.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult Agradecimentos()
         {
             return View();
         }

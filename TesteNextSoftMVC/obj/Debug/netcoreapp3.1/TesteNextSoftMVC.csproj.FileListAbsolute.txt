@@ -133,7 +133,6 @@ C:\Users\apolo\OneDrive\Documentos\Estudos\Alan\Tecnologia\Pesquisas\Teste NextS
 C:\Users\apolo\OneDrive\Documentos\Estudos\Alan\Tecnologia\Pesquisas\Teste NextSoft\TesteNextSoftMVC\obj\Debug\netcoreapp3.1\TesteNextSoftMVC.TagHelpers.output.cache
 C:\Users\apolo\OneDrive\Documentos\Estudos\Alan\Tecnologia\Pesquisas\Teste NextSoft\TesteNextSoftMVC\obj\Debug\netcoreapp3.1\TesteNextSoftMVC.RazorCoreGenerate.cache
 C:\Users\apolo\OneDrive\Documentos\Estudos\Alan\Tecnologia\Pesquisas\Teste NextSoft\TesteNextSoftMVC\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
-C:\Users\apolo\OneDrive\Documentos\Estudos\Alan\Tecnologia\Pesquisas\Teste NextSoft\TesteNextSoftMVC\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
 C:\Users\apolo\OneDrive\Documentos\Estudos\Alan\Tecnologia\Pesquisas\Teste NextSoft\TesteNextSoftMVC\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
 C:\Users\apolo\OneDrive\Documentos\Estudos\Alan\Tecnologia\Pesquisas\Teste NextSoft\TesteNextSoftMVC\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
 C:\Users\apolo\OneDrive\Documentos\Estudos\Alan\Tecnologia\Pesquisas\Teste NextSoft\TesteNextSoftMVC\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
@@ -161,3 +160,4 @@ C:\Users\apolo\OneDrive\Documentos\Estudos\Alan\Tecnologia\Pesquisas\Teste NextS
 C:\Users\apolo\OneDrive\Documentos\Estudos\Alan\Tecnologia\Pesquisas\Teste NextSoft\TesteNextSoftMVC\obj\Debug\netcoreapp3.1\Razor\Views\Familia\Details.cshtml.g.cs
 C:\Users\apolo\OneDrive\Documentos\Estudos\Alan\Tecnologia\Pesquisas\Teste NextSoft\TesteNextSoftMVC\obj\Debug\netcoreapp3.1\Razor\Views\Familia\Edit.cshtml.g.cs
 C:\Users\apolo\OneDrive\Documentos\Estudos\Alan\Tecnologia\Pesquisas\Teste NextSoft\TesteNextSoftMVC\obj\Debug\netcoreapp3.1\Razor\Views\Familia\Index.cshtml.g.cs
+C:\Users\apolo\OneDrive\Documentos\Estudos\Alan\Tecnologia\Pesquisas\Teste NextSoft\TesteNextSoftMVC\obj\Debug\netcoreapp3.1\Razor\Views\Home\Agradecimentos.cshtml.g.cs
