@@ -18,17 +18,35 @@
             @Html.DisplayFor(model => model.Nome)
         </dd>
         <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Condominio)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Condominio.Id)
+        </dd class>
+        <dt class = "col-sm-2">
             @Html.DisplayNameFor(model => model.Apto)
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.Apto)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Condominio)
+            @Html.DisplayNameFor(model => model.AreaApto)
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Condominio.Nome)
-        </dd class>
+            @Html.DisplayFor(model => model.AreaApto)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.FracaoIdeal)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.FracaoIdeal)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.ValorIPTU_Proporcional)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.ValorIPTU_Proporcional)
+        </dd>
     </dl>
     
     <form asp-action="Delete">

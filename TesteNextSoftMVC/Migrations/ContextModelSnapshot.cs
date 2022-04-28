@@ -25,11 +25,17 @@ namespace TesteNextSoftMVC.Migrations
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
+                    b.Property<decimal>("AreaTotalCondominio")
+                        .HasColumnType("decimal(18,2)");
+
                     b.Property<string>("Bairro")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Nome")
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<decimal>("ValorIPTU")
+                        .HasColumnType("decimal(18,2)");
 
                     b.HasKey("Id");
 
@@ -46,11 +52,20 @@ namespace TesteNextSoftMVC.Migrations
                     b.Property<int>("Apto")
                         .HasColumnType("int");
 
+                    b.Property<decimal>("AreaApto")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<decimal>("FracaoIdeal")
+                        .HasColumnType("decimal(18,2)");
+
                     b.Property<int>("Id_Condominio")
                         .HasColumnType("int");
 
                     b.Property<string>("Nome")
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<decimal>("ValorIPTU_Proporcional")
+                        .HasColumnType("decimal(18,2)");
 
                     b.HasKey("Id");
 

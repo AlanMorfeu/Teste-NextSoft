@@ -146,6 +146,11 @@ C:\Users\apolo\OneDrive\Documentos\Estudos\Alan\Tecnologia\Pesquisas\Teste NextS
 C:\Users\apolo\OneDrive\Documentos\Estudos\Alan\Tecnologia\Pesquisas\Teste NextSoft\TesteNextSoftMVC\obj\Debug\netcoreapp3.1\TesteNextSoftMVC.dll
 C:\Users\apolo\OneDrive\Documentos\Estudos\Alan\Tecnologia\Pesquisas\Teste NextSoft\TesteNextSoftMVC\obj\Debug\netcoreapp3.1\TesteNextSoftMVC.pdb
 C:\Users\apolo\OneDrive\Documentos\Estudos\Alan\Tecnologia\Pesquisas\Teste NextSoft\TesteNextSoftMVC\obj\Debug\netcoreapp3.1\TesteNextSoftMVC.genruntimeconfig.cache
+C:\Users\apolo\OneDrive\Documentos\Estudos\Alan\Tecnologia\Pesquisas\Teste NextSoft\TesteNextSoftMVC\obj\Debug\netcoreapp3.1\Razor\Views\Morador\Create.cshtml.g.cs
+C:\Users\apolo\OneDrive\Documentos\Estudos\Alan\Tecnologia\Pesquisas\Teste NextSoft\TesteNextSoftMVC\obj\Debug\netcoreapp3.1\Razor\Views\Morador\Delete.cshtml.g.cs
+C:\Users\apolo\OneDrive\Documentos\Estudos\Alan\Tecnologia\Pesquisas\Teste NextSoft\TesteNextSoftMVC\obj\Debug\netcoreapp3.1\Razor\Views\Morador\Details.cshtml.g.cs
+C:\Users\apolo\OneDrive\Documentos\Estudos\Alan\Tecnologia\Pesquisas\Teste NextSoft\TesteNextSoftMVC\obj\Debug\netcoreapp3.1\Razor\Views\Morador\Edit.cshtml.g.cs
+C:\Users\apolo\OneDrive\Documentos\Estudos\Alan\Tecnologia\Pesquisas\Teste NextSoft\TesteNextSoftMVC\obj\Debug\netcoreapp3.1\Razor\Views\Morador\Index.cshtml.g.cs
 C:\Users\apolo\OneDrive\Documentos\Estudos\Alan\Tecnologia\Pesquisas\Teste NextSoft\TesteNextSoftMVC\obj\Debug\netcoreapp3.1\Razor\Views\Condominio\Create.cshtml.g.cs
 C:\Users\apolo\OneDrive\Documentos\Estudos\Alan\Tecnologia\Pesquisas\Teste NextSoft\TesteNextSoftMVC\obj\Debug\netcoreapp3.1\Razor\Views\Condominio\Delete.cshtml.g.cs
 C:\Users\apolo\OneDrive\Documentos\Estudos\Alan\Tecnologia\Pesquisas\Teste NextSoft\TesteNextSoftMVC\obj\Debug\netcoreapp3.1\Razor\Views\Condominio\Details.cshtml.g.cs
@@ -156,8 +161,3 @@ C:\Users\apolo\OneDrive\Documentos\Estudos\Alan\Tecnologia\Pesquisas\Teste NextS
 C:\Users\apolo\OneDrive\Documentos\Estudos\Alan\Tecnologia\Pesquisas\Teste NextSoft\TesteNextSoftMVC\obj\Debug\netcoreapp3.1\Razor\Views\Familia\Details.cshtml.g.cs
 C:\Users\apolo\OneDrive\Documentos\Estudos\Alan\Tecnologia\Pesquisas\Teste NextSoft\TesteNextSoftMVC\obj\Debug\netcoreapp3.1\Razor\Views\Familia\Edit.cshtml.g.cs
 C:\Users\apolo\OneDrive\Documentos\Estudos\Alan\Tecnologia\Pesquisas\Teste NextSoft\TesteNextSoftMVC\obj\Debug\netcoreapp3.1\Razor\Views\Familia\Index.cshtml.g.cs
-C:\Users\apolo\OneDrive\Documentos\Estudos\Alan\Tecnologia\Pesquisas\Teste NextSoft\TesteNextSoftMVC\obj\Debug\netcoreapp3.1\Razor\Views\Morador\Create.cshtml.g.cs
-C:\Users\apolo\OneDrive\Documentos\Estudos\Alan\Tecnologia\Pesquisas\Teste NextSoft\TesteNextSoftMVC\obj\Debug\netcoreapp3.1\Razor\Views\Morador\Delete.cshtml.g.cs
-C:\Users\apolo\OneDrive\Documentos\Estudos\Alan\Tecnologia\Pesquisas\Teste NextSoft\TesteNextSoftMVC\obj\Debug\netcoreapp3.1\Razor\Views\Morador\Details.cshtml.g.cs
-C:\Users\apolo\OneDrive\Documentos\Estudos\Alan\Tecnologia\Pesquisas\Teste NextSoft\TesteNextSoftMVC\obj\Debug\netcoreapp3.1\Razor\Views\Morador\Edit.cshtml.g.cs
-C:\Users\apolo\OneDrive\Documentos\Estudos\Alan\Tecnologia\Pesquisas\Teste NextSoft\TesteNextSoftMVC\obj\Debug\netcoreapp3.1\Razor\Views\Morador\Index.cshtml.g.cs

@@ -11,11 +11,14 @@ namespace TesteNextSoftMVC.Models
     {
         [Key]
         public int Id { get; set; }
+
         [ForeignKey("Familia")]
         [Display(Name = "Família")]
         public int Id_Familia { get; set; }
         public virtual Familia Familia { get; set; }
+
         public string Nome { get; set; }
+
         public int Idade { get; set; }
 
         

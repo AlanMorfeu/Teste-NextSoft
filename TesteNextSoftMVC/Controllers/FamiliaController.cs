@@ -47,7 +47,7 @@ namespace TesteNextSoftMVC.Controllers
         // GET: Familia/Create
         public IActionResult Create()
         {
-            ViewData["Id_Condominio"] = new SelectList(_context.Condominio, "Id", "Nome");
+            ViewData["Id_Condominio"] = new SelectList(_context.Condominio, "Id", "Id");
             return View();
         }
 
@@ -56,7 +56,7 @@ namespace TesteNextSoftMVC.Controllers
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Nome,Id_Condominio,Apto")] Familia familia)
+        public async Task<IActionResult> Create([Bind("Id,Nome,Id_Condominio,Apto,AreaApto,FracaoIdeal,ValorIPTU_Proporcional")] Familia familia)
         {
             if (ModelState.IsValid)
             {
@@ -64,7 +64,7 @@ namespace TesteNextSoftMVC.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["Id_Condominio"] = new SelectList(_context.Condominio, "Id", "Nome", familia.Id_Condominio);
+            ViewData["Id_Condominio"] = new SelectList(_context.Condominio, "Id", "Id", familia.Id_Condominio);
             return View(familia);
         }
 
@@ -81,7 +81,7 @@ namespace TesteNextSoftMVC.Controllers
             {
                 return NotFound();
             }
-            ViewData["Id_Condominio"] = new SelectList(_context.Condominio, "Id", "Nome", familia.Id_Condominio);
+            ViewData["Id_Condominio"] = new SelectList(_context.Condominio, "Id", "Id", familia.Id_Condominio);
             return View(familia);
         }
 
@@ -90,7 +90,7 @@ namespace TesteNextSoftMVC.Controllers
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Nome,Id_Condominio,Apto")] Familia familia)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Nome,Id_Condominio,Apto,AreaApto,FracaoIdeal,ValorIPTU_Proporcional")] Familia familia)
         {
             if (id != familia.Id)
             {
@@ -117,7 +117,7 @@ namespace TesteNextSoftMVC.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["Id_Condominio"] = new SelectList(_context.Condominio, "Id", "Nome", familia.Id_Condominio);
+            ViewData["Id_Condominio"] = new SelectList(_context.Condominio, "Id", "Id", familia.Id_Condominio);
             return View(familia);
         }
 
